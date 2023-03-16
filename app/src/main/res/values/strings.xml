@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">menus</string>
+    <string name="item1">Titulo 1</string>
+    <string name="item2">Titulo 2</string>
+    <string name="item3">Titulo 3</string>
+    <string name="item3sub1">Titulo 3 sub</string>
+    <string name="item3sub2">Titulo 3 sub</string>
+    <string name="dialogo">Dialogo</string>
+    <string name="buscar">Buscar</string>
+    <string name="uso_menus">Uso de menus</string>
+    <string name="menu1">Menu 1 pulsado</string>
+    <string name="menu2">Menu 2 pulsado</string>
+    <string name="menu3">Menu 3 pulsado</string>
+    <string name="menuD">Menu 4 Dialogo</string>
+
+    <string name="etiqueta_opc1">Etiqueta opcion 1</string>
+    <string name="etiqueta_opc2">Etiqueta opcion 2</string>
+    <string name="lista_opc1">Lista opcion 1</string>
+    <string name="lista_opc2">Lista opcion 2</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <item android:id="@+id/item1"
+        android:title="@string/item1"
+        android:orderInCategory="1"
+        app:showAsAction="never">
+        </item>
+
+
+    <item android:id="@+id/item3"
+        android:title="@string/item3"
+        android:orderInCategory="3"
+        app:showAsAction="never">
+        <menu>
+
+            <group android:id="@+id/grupo1"
+                android:checkableBehavior="single">
+                <item android:id="@+id/item3sub1"
+                    android:title="@string/item3sub1">
+                </item>
+
+                <item android:id="@+id/item3sub2"
+                    android:title="@string/item3sub2">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/dialogo"
+        android:title="@string/dialogo"
+        android:orderInCategory="4"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/buscar"
+        android:title="@string/buscar"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView">
+    </item>
+
+</menu>
