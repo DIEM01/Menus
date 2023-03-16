@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.item2 -> {
-                texto.text=getString(R.string.menu2)
+                texto.text = getString(R.string.menu2)
                 return true
             }
             R.id.item3 -> {
@@ -66,8 +66,8 @@ class MainActivity : AppCompatActivity() {
     ) {
         super.onCreateContextMenu(menu, v, menuInfo)
         val inflater = menuInflater
-        where(v?.id) {
-            R.idtexto-> {
+        when(v?.id) {
+            R.id.texto-> {
                 inflater.inflate(R.menu.contextual_etiqueta, menu)
             }
             R.id.lista -> {
@@ -81,8 +81,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
-        val mesaje: String
-        where(item.itemId) {
+        val mensaje: String
+        when(item.itemId) {
             R.id.etiquetaOpcion1 -> {
                 texto.text=getString(R.string.etiqueta_opc1)
                 return true
@@ -93,13 +93,13 @@ class MainActivity : AppCompatActivity() {
             }
            R.id.listaOpcion1 -> {
                 val info =item.menuInfo as AdapterView.AdapterContextMenuInfo
-                mesaje="Lista[${info.position}] opcion 1"
-                texte.text =mensaje
+                mensaje="Lista[${info.position}] opcion 1"
+                texto.text =mensaje
             }
             R.id.listaOpcion2 -> {
                 val info =item.menuInfo as AdapterView.AdapterContextMenuInfo
-                mesaje="Lista[${info.position}] opcion 2"
-                texte.text =mensaje
+                mensaje="Lista[${info.position}] opcion 2"
+                texto.text =mensaje
             }
         }
         return super.onContextItemSelected(item)
