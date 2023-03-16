@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
     ) {
         super.onCreateContextMenu(menu, v, menuInfo)
         val inflater = menuInflater
-        where(v?.id) {ññ
+        where(v?.id) {
             R.idtexto-> {
                 inflater.inflate(R.menu.contextual_etiqueta, menu)
             }
