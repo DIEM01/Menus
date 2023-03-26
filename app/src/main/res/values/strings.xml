@@ -17,4 +17,9 @@
     <string name="etiqueta_opc2">Etiqueta opcion 2</string>
     <string name="lista_opc1">Lista opcion 1</string>
     <string name="lista_opc2">Lista opcion 2</string>
+
+    <string name="dialogo_titulo">Dialogo personalizado</string>
+    <string name="dialogo_imagen">Imagen del dialogo</string>
+    <string name="dialogo_subtitulo">Dispositivos movies</string>
+    <string name="dialogo_nombre">Escribe tu nombre </string>
 </resources>
